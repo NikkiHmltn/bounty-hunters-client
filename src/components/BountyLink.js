@@ -4,8 +4,11 @@ export default function BountyLink(props) {
     const linkTo = `/show/${props.bountyId}`
 
     return(
-       <Link to={linkTo}>
+        <div>
+            <Link to={linkTo}>
            {props.name}
-       </Link>
+            </Link>
+        </div>
+       
     )
 }
